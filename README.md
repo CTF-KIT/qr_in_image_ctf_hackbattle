@@ -1,8 +1,8 @@
 # ([All-in task](https://github.com/SPbCTF/hackbattle-phdays2019/tree/master/all_in))
 
-## solution:
+* **solution:**
 
-### exiftool task.png
+$ exiftool task.png
 
 ```
 ExifTool Version Number         : 10.80
@@ -28,12 +28,12 @@ Image Size                      : 1x1
 Megapixels                      : 0.000001
 ```
 
-**Warning                         : [minor] Trailer data after PNG IEND chunk**
+line: **Warning                         : [minor] Trailer data after PNG IEND chunk**
 
-*look interesting...*
+*looks interesting...*
 
-### explode_file.py for unpack images
+* **explode_file.py for unpack images**
 
-### split_files.py for split images in one
+* **split_files.py for split images in one**
 
 !["QR CODE"](https://sun9-16.userapi.com/rcInahSKKgOhiIYpqKIZdOR05KLNZaEfpF_UKQ/eOS_YohHVBk.jpg "out qr code")
