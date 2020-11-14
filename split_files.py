@@ -14,9 +14,9 @@ for n in tqdm(range(files_count)):
 	x = n % width
 	y = n // height
 
-	file_path = file_pattern.format(n)
-
-	pixel = Image.open(file_path)
+	pixel = Image.open(
+		file_pattern.format(n)
+	)
 
 	img.paste(pixel, (x,y))
 
