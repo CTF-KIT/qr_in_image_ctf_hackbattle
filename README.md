@@ -23,10 +23,14 @@ Color Type                      : Grayscale
 Compression                     : Deflate/Inflate
 Filter                          : Adaptive
 Interlace                       : Noninterlaced
-**Warning                         : [minor] Trailer data after PNG IEND chunk**
+Warning                         : [minor] Trailer data after PNG IEND chunk
 Image Size                      : 1x1
 Megapixels                      : 0.000001
 ```
+
+**Warning                         : [minor] Trailer data after PNG IEND chunk**
+
+*look interesting...*
 
 ### explode_file.py for unpack images
 
