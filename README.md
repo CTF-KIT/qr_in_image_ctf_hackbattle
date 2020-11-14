@@ -2,7 +2,7 @@
 
 * **solution:**
 
-$ exiftool task.png
+`$ exiftool task.png`
 
 ```
 ExifTool Version Number         : 10.80
